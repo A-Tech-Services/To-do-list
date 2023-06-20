@@ -8,7 +8,7 @@
 
 body{
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.844), rgba(0, 0, 0, 0.684)),url('/image/todo.jpeg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.844), rgba(0, 0, 0, 0.684)),url('image/todo.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

@@ -10,6 +10,7 @@ const displayCount = (taskCount) => {
     countValue.innerText = taskCount;
 }
 
+// adding Task
 const addTask = () => {
     const taskName = newTaskInput.value.trim();
 
@@ -33,6 +34,10 @@ const addTask = () => {
     taskContainer.insertAdjacentHTML("beforeend", task);
     taskCount++;
     displayCount(taskCount);
+    
+    const saveData = () => {
+        localStorage.setItem("data", task.innerHtml);
+    }
     
 
 
