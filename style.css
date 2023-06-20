@@ -16,17 +16,24 @@ body{
 
 .app{
     font-family: "Poppins", sans-serif;
-    /* width: 30em; */
     width: min(95vw, 31.25em);
     position: absolute;
     margin: auto;
-    /* left: 0;
-    right: 0;
-    top: 1.875em; */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* background-color: black; */
+}
+
+.app .head{
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 1em;
+    max-width: 20em;
+    margin-inline: auto;
+}
+
+.app .head span{
+    color: #ff5c5c;
 }
 
 .container{
