@@ -8,7 +8,7 @@
 
 body{
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.844), rgba(0, 0, 0, 0.684)),url('todo.jpeg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.844), rgba(0, 0, 0, 0.684)),url('/image/todo.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -34,6 +34,14 @@ body{
 
 .app .head span{
     color: #ff5c5c;
+}
+
+.container .title{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-bottom: 2em;
+    color: #0b285d;
+    font-weight: 900;
 }
 
 .container{
