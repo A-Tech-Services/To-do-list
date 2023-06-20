@@ -35,10 +35,6 @@ const addTask = () => {
     taskCount++;
     displayCount(taskCount);
     
-    const saveData = () => {
-        localStorage.setItem("data", task.innerHtml);
-    }
-    
 
 
     // delete button scripting.
@@ -89,10 +85,10 @@ const addTask = () => {
     newTaskInput.value = "";
 }
 
+
 addBtn.addEventListener("click", addTask);
 
-window.onload = () => {
-    taskCount = 0;
-    displayCount(taskCount);
-    newTaskInput.value = "";
-}
+
+
+
+
